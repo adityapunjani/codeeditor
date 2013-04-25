@@ -1,0 +1,5 @@
+module.exports = function routes() {
+  this.root('editor#root');
+  this.match('/editor/new', { controller: 'editor', action: 'generate' });
+  this.match('/editor/:slug', { controller: 'editor', action: 'main' });
+}
