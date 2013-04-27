@@ -1,5 +1,5 @@
 {
-  "name": "app-name",
+  "name": "CodeEditor",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -8,7 +8,6 @@
     "ejs": ">= 0.4.3",
     "now": ">= 0.8.1",
     "connect": ">=2.4.4",
-    "coffee-script": "",
     "share": "" 
   }
 }
